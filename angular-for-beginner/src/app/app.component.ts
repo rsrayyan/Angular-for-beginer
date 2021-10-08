@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-for-beginner';
+  title = 'Expense Manager';
+  message(){
+    alert("you click on video");
+  }
 }
