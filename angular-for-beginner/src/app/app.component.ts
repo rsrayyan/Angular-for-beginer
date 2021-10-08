@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Expense Manager';
+  propertyName :string = "rayyan";
+  className : string = "mess";
+  colorName : string ="red";
   message(){
     alert("you click on video");
   }
